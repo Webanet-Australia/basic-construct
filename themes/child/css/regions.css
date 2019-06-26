@@ -1,0 +1,25 @@
+/*header {
+  height: 80vh;
+}
+
+header img {
+  object-fit: cover;
+  width: 100%;
+  height: 80vh;
+  border-radius: 0;
+}
+
+.thumbnail {
+    position: relative;
+}
+
+.caption {
+    position: absolute;
+    top: 45%;
+    left: 0;
+    width: 100%;
+}
+*/
+.maps-regions {
+  height: 80vh;
+}

@@ -1,0 +1,16 @@
+.bc-shop-products-page img {
+  max-width: 278px;
+  margin: 0 auto;
+}
+
+.bc-shop-products-page .card-wrapper {
+  width: 280px;
+  height: 480px;
+  overflow: hidden;
+  margin: 20px;
+}
+
+.bc-shop-products-page .card-header {
+  height: 60px;
+  overflow: hidden;
+}

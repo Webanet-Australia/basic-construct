@@ -1,0 +1,339 @@
+/*
+ Theme Name:   Vingaro
+ Theme URI:    https://vingaro.preset.cloud
+ Description:  Child Theme
+ Author:       sniper@openmail.cc
+ Author URI:   https://preset.cloud
+ Template:     basic-construct
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         Bootstrap 4
+ Text Domain:  vingaro-theme
+*/
+@font-face {
+    font-family: 'Raleway-Bold';
+    src: url('fonts/Raleway-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Roboto-Bold';
+    src: url('fonts/Roboto-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url('fonts/Roboto-Regular.ttf');
+}
+
+body {
+  color: #17031b;
+  font-family: 'Roboto-Regular', Helvetica, Arial, sans-serif;
+}
+
+main {
+
+}
+
+h1, h2 {
+  font-family: 'Raleway-Bold', Arial, sans-serif;
+}
+
+h3, h4, h5 {
+  font-family: 'Raleway-Bold', Arial, sans-serif;
+}
+
+.display-1, p.display-2, p.display-3, p.display-4, p.display-5 {
+  font-family: 'Raleway-Bold', Arial, sans-serif;
+}
+
+.display-1 {
+  font-size: 24px;
+}
+
+.display-2 {
+  font-size: 22px;
+}
+
+.display-3 {
+  font-size: 20px;
+}
+
+.display-4 {
+  font-size: 18px;
+}
+
+.display-5 {
+  font-size: 17px;
+}
+
+h1 {
+  font-size: 66px;
+}
+
+h3, h4, h5, h6 {
+  font-family: 'Roboto-Bold' serif;
+}
+
+h2 {
+  font-size: 19px;
+}
+
+h2, h3 {
+  letter-spacing: 2px;
+}
+h3 {
+  font-size: 16px;
+}
+
+h4 {
+  font-size: 15px;
+}
+
+h5 {
+  font-size: 14px;
+}
+
+a {
+  color: #ddc5d9;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #483357;
+  text-decoration: none;
+}
+
+a.active {
+  color: #483357;
+  text-decoration: none;
+}
+header.banner {
+    height: 80vh;
+}
+
+header.banner img {
+  object-fit: cover;
+  width: 100%;
+  height: 80vh;
+  border-radius: 0;
+}
+.fit img {
+  width: 100%;
+}
+.btn.btn-primary {
+  border: 1px solid #f598a4;
+  font-size: 13px;
+  font-weight: bolder;
+  padding-top: 8px;
+  margin-top: 1px;
+}
+
+button.btn.btn-primary:hover {
+  background-color: #fad0d6;
+}
+.mt-6 {
+  margin-top: 65px;
+}
+.mt-8 {
+  margin-top: 80px;
+}
+
+.mb-8 {
+  margin-bottom: 80px;
+}
+
+.mt-12 {
+  margin-top: 120px;
+}
+
+.mb-12 {
+  margin-bottom: 120px;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  color: #6c6f82;
+  background-color: #14151b;
+  border-color: #483357 #483357 #483357;
+}
+
+.nav-tabs {
+  border-bottom: 1px solid #483357;
+  border-color: #483357 #483357 #483357;
+}
+
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+    border-color: #483357 #483357 #483357;
+}
+
+a.carousel-control-next span {
+  color: #ddc5d9;
+}
+
+.card {
+  background-color: #14151b;
+  color: #6c6f82;
+}
+
+img {
+  border-radius: 5px;
+}
+
+img.card-img-top {
+  border-radius: 5px;
+
+}
+/*
+img.card-img-top.bc-effect-englarge-1:hover {
+    position:relative;
+    top:-25px;
+    left:-35px;
+    width:500px;
+    height:auto;
+    display:block;
+    z-index:999;
+}
+
+img.card-img-top.bc-enlarge-4:hover {
+    position:relative;
+    top:-20px;
+    left:-50px;
+    width: 350px;
+    height: auto;
+    display: block;
+    z-index: 9999;
+}
+
+img.card-img-top.bc-enlarge-5:hover {
+    position:relative;
+    top:-25px;
+    left:-25px;
+    width: 300px;
+    height: auto;
+    display: block;
+    z-index: 999;
+}
+*/
+div#toTop {
+  position: fixed;
+  top: 95vh;
+  right: 1vh;
+  display: none;
+  z-index: 9999;
+}
+
+div#toTop > a {
+  color: #f598a4;
+}
+
+footer {
+  background-color: #f7f7f7;
+  position: relative;
+  padding-top: 40px;
+  font-size: 14px;
+}
+
+.jumbotron {
+    padding: 1rem 1rem;
+    background: transparent;
+}
+
+
+
+footer.home {
+  top: 0px;
+}
+footer img.vingaro-logo {
+  width: 50%;
+}
+
+footer ul.bc-social {
+  margin-left: 0;
+}
+
+footer ul.bc-social a {
+  color: #000;
+}
+
+footer ul.bc-social a:hover {
+  color: #f598a4
+}
+
+footer ul.list-group li.list-group-item {
+  background-color: transparent;
+  margin-left: 0;
+  padding: .25rem 1.25rem;
+  padding-left: 0;
+  border: none;
+}
+
+footer ul.vingaro-footer-contact {
+  margin-top: 39px;
+}
+
+footer h4 {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+footer h4.vingaro-footer-links {
+  margin-top: 27px;
+}
+
+footer div.copy {
+  margin-top: 30px;
+  font-size: 11px;
+}
+.nav-items {
+  text-transform: uppercase;
+
+}
+
+@media(max-width: 800px) {
+
+  div.container-full-bg {
+    height: 350px;
+  }
+
+  div#toTop {
+    bottom: 25vh;
+    right: 1vh;
+  }
+
+  div.vingaro-bg-left  {
+    background: none;
+  }
+  div.vingaro-bg-right {
+    background: none;
+  }
+  div.vingaro-bg-right-double {
+    background: none;
+  }
+  div.vingaro-bg-left-double {
+    background: none;
+  }
+  div.vingaro-bg-both {
+    background: none;
+  }
+
+
+
+
+  footer {
+    text-align: center;
+  }
+  footer ul.list-group li.list-group-item {
+    padding-right: 0;
+  }
+  footer .fi-social .fa {
+    font-size: 20px;
+  }
+}
+
+@media(max-width: 1600px) {
+
+  body.vingaro-body-home main {
+    top: 140vh;
+  }
+
+}

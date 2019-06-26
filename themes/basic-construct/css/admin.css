@@ -1,0 +1,37 @@
+div.sidebar-fi div.widget-content li { list-style-type: none}
+
+div.sidebar-fi h3 {
+  margin: 5px 0 5px 0;
+  font-size: 15px;
+  font-weight: 700;
+  color: #365989;
+}
+
+div.sidebar-fi  input[type=radio] {
+  padding: 15px;
+  margin: 5px;
+}
+
+div.sidebar-fi div.widget-content li {
+  margin: 5px 0 5px 0;
+}
+div.sidebar-fi div.widget-content li:last-child {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+div.sidebar-fi img.fi-media-image {
+  margin: 0;
+  padding: 0;
+  max-width: 100px;
+  float: left;
+  display: inline-block;
+}
+
+div.sidebar-fi input.fi-media-btn {
+  margin-top:5px;
+}
+div.sidebar-fi input.fi-media-url {
+  margin-top: 5px;
+}

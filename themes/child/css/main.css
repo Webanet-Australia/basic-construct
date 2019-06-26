@@ -1,0 +1,25 @@
+
+.vingaro-font-light {
+  color: #ddc5d9;
+}
+
+.vingaro-font-medium {
+  color: #6c6f82;
+}
+
+.vingaro-font-dark {
+  color: #17031b;
+}
+
+.vingaro-gradient-v-d-l {
+  background: -moz-linear-gradient(top, rgba(28, 32, 61, 0.65) 0%, rgba(28, 32, 61, 0.15) 100%);
+  background: -webkit-linear-gradient(top, rgba(28, 32, 61, 0.65) 0%, rgba(28, 32, 61, 0.15) 100%);
+  background: linear-gradient(to bottom, rgba(28, 32, 61, 0.65) 0%, rgba(28, 32, 61, 0.15) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a61c203d', endColorstr='#261c203d', GradientType=0);
+}
+.vingaro-gradient-v-l-d {
+  background: -moz-linear-gradient(top, rgba(28, 32, 61, 0.15) 0%, rgba(28, 32, 61, 0.65) 100%);
+  background: -webkit-linear-gradient(top, rgba(28, 32, 61, 0.15) 0%,rgba(28, 32, 61, 0.65)  100%);
+  background: linear-gradient(to bottom, rgba(28, 32, 61, 0.15)  0%,rgba(28, 32, 61, 0.65)  100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#261c203d', endColorstr='#a61c203d', GradientType=0);
+}

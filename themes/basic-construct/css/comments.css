@@ -1,0 +1,7 @@
+div.comment {
+  margin: 10px;
+}
+
+div.comment:last-child {
+  padding-bottom: 20px;
+}

@@ -1,0 +1,24 @@
+
+.carousel.bc-carousel-full-size img {
+  max-height: 10000px;
+  margin: 0;
+  border-radius: 0;
+}
+
+.bc-carousel-full-size .carousel-item {
+  height: 100vh;
+  min-height: 300px;
+  background: black no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.bc-carousel-full-size .carousel-inner {
+  background-color: #000;
+}
+
+div.carousel-indicators-wrap {
+  padding-top: 50px;
+}

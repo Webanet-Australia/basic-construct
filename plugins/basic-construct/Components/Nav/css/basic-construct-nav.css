@@ -1,0 +1,18 @@
+.bsnav-sidebar .navbar-collapse {
+    width: 100%;
+}
+.bc-nav-page {
+  height: 100%;
+}
+.rotate {
+  -moz-transition: all 0.5s linear;
+  -webkit-transition: all 0.5s linear;
+  transition: all 0.5s linear;
+}
+
+.rotate.down {
+  -ms-transform:rotate(-90deg);
+  -moz-transform:rotate(-90deg);
+  -webkit-transform:rotate(-90deg);
+  transform:rotate(-90deg);
+}

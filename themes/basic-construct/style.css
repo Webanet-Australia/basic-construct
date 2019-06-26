@@ -1,0 +1,26 @@
+/*
+ Theme Name:   Basic Construct
+ Theme URI:    https://basic-construct.preset.cloud/
+ Description:  Base
+ Author:       sniper
+ Author URI:   https://github.com/s-n-i-p-e-r/
+ Version:      1.0.0
+ License:      gpl-3
+ License URI:  http://www.gnu.org/licenses/gpl-3.0.txt
+ Tags:         basic-construct
+ Text Domain:  basic-construct
+*/
+html {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+footer {
+  padding: 20px;
+}
+.btn {
+  min-height: 34px;
+}
+div.logo {
+  margin-top: -10px;
+}

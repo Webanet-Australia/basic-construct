@@ -1,0 +1,10 @@
+{
+  "name": "bc/basic-construct",
+  "description": "Collection of Bootstrap 4 Components",
+  "type": "library",
+  "license": "GNU GPLv3",
+  "autoload": {
+    "psr-4": {
+      "BC\\": "./"
+    }
+  }}

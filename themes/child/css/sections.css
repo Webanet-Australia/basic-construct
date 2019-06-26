@@ -1,0 +1,102 @@
+header {
+  background-color: #000;
+}
+
+header h1, header h2, header h3, header h4, header h5 {
+  color: #ddc5d9;
+}
+.vingaro-home-regions img {
+  width: 100%;
+}
+
+.vingaro-home-products {
+  padding: 30px;
+}
+
+.vingaro-home-products .card-header {
+  height: 70px;
+  overflow: hidden;
+}
+
+.vingaro-home-products  .card-body {
+  height:auto!important;
+  overflow: auto!important;
+}
+
+#bc-carousel-post .card-body {
+  height: 220px;
+  overflow: hidden;
+
+}
+.card-image-wrap {
+  min-height: 210px;
+}
+#bc-carousel-post img {
+  max-height: none;
+  width: 100%;
+  margin: 5px;
+  padding-right: 10px;
+}
+
+.carousel img {
+  max-height: 240px;
+  width: auto;
+  margin: 5px;
+}
+
+.vingaro-home-products .card-body {
+  height: 160px;
+  overflow: hidden;
+}
+
+.vingaro-home-products .carousel-control-prev {
+  margin-left: -100px;
+}
+
+.vingaro-home-products .carousel-control-next {
+  margin-right: -100px;
+}
+
+.vingaro-home-regions {
+  background-color: #14151b;
+  padding: 30px;
+  color: #6c6f82;
+}
+
+.vingaro-home-blogs {
+  padding: 30px;
+}
+
+.vingaro-home-blogs .card-body {
+  height: 140px;
+}
+
+.vingaro-home-blogs .card-img-wrap {
+  background-color: #6c6f82;
+  margin: 0 15px;
+  padding: 15px;
+  border-radius: 5px;
+}
+.vingaro-home-blogs .card-img-top {
+  max-height: 160px;
+  width: auto;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+
+.bc-account {
+  background-color: #14151b;
+  padding: 80px 30px;
+  color: #6c6f82;
+}
+
+
+footer {
+  background: #14151b;
+  color: #6c6f82;
+}
+
+footer div.list-group ul {
+  padding-left: 0;
+}

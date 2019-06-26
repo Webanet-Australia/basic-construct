@@ -1,0 +1,21 @@
+{
+  "name": "Basic Construct",
+  "description": "Parent theme & plugin for Wordpress. A starting point for creating custom Bootstrap 4 based Wordpress sites",
+  "type": "Wordpress Theme",
+  "license": "GNU GPLv3",
+  "authors": [{
+    "email": "zak@webanet.com.au",
+    "name": "zak"
+  }],
+
+  "require-dev": {
+    "phpunit/phpunit": "5.4.*"
+  },
+
+  "autoload": {
+    "psr-4": {
+      "BC\\": "lib/",
+      "Child\\": "../child/lib"
+    }
+  }
+}
